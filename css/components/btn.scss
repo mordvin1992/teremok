@@ -1,0 +1,40 @@
+.btn{
+    font-size: 19px;
+    font-weight: bold;
+    padding: 18px 35px;
+    text-transform: uppercase;
+    border-radius: 100px;
+    line-height: 1;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+   
+         &--theme--white{
+        background: #E01F3D;
+        color: #fff;
+
+        &:hover{
+            color: #E01F3D;
+            background: #fff;
+        }
+    }
+
+    &--theme--orange{
+        background: #E01F3D;
+        color: #fff;
+
+        &:hover{
+            color: #E01F3D;
+            background: #fff;
+        }
+    }
+    &--theme--transparent{
+        background: transparent;
+        color: #fff;
+        text-transform: none;
+
+        &:hover{
+            color: #E01F3D;
+        }
+    }
+}
